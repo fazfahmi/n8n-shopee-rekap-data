@@ -3,6 +3,7 @@
 ## 📝 Description
 This workflow was built in **n8n** to automate reporting for multiple Shopee stores.  
 Currently, Shopee's APIs are not directly connected, so the workflow processes **exported files** (Orders, Balance, and Internal Ads) that are manually downloaded and placed in a **Google Drive folder**.  
+
 Each store has its own folder, and the workflow automatically sorts and sends the data into the correct **Google Sheets** (e.g., Internal Ads – Store A, Internal Ads – Store B).
 
 ---
